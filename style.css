@@ -1,0 +1,39 @@
+h1 {
+    color: white; 
+    background-color:black
+}
+p {
+    font-size: 50pts;
+    font-family: cursive;
+    font-weight: bolder;
+  }
+
+th, td {
+    border: 2px, solid red;
+    text-align: center;
+    color: blue
+}
+/*ol{
+    list-style-type: lower-alpha;
+}*/ 
+
+#listaAlpha {
+    list-style-type: lower-alpha;
+}
+
+.btn {
+    background-color: blue;
+    color: cyan;
+    font-family: cursive;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: violet;
+    color: black;
+}
+.btn:after {
+    content: "->";
+}
